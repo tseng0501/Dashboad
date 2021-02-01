@@ -1,0 +1,154 @@
+*, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Microsoft JhengHei;
+}
+
+.layout {
+    position: sticky;
+    text-align: center;
+    background-color: #1d2024;
+    /* width: 20vh; */
+}
+
+.col-12, .col-11, .col-8, .col-4, .col-6 {
+    padding: 0;
+}
+
+.layout-title {
+    font-size: 35px;
+}
+
+.layout-title i {
+    height: 15vh;
+    padding: 20px;
+    color: #f2921b;
+}
+
+.layout-content {
+    height: 85vh;
+}
+
+.nav-icon {
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.nav-icon i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.nav-icon:hover {
+    background-color: #2a2b31;
+    opacity: .9;
+}
+
+/* head  */
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #18191d;
+    color: #ffffff;
+    height: 10vh;
+}
+
+.head-user {
+    color: #ffffff;
+}
+
+.head-user i {
+    font-size: 25px;
+    margin: 10px;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    margin: auto;
+    background-color: #18191d;
+    color: #ffffff;
+    /* margin: 5px; */
+}
+/* .index content */
+
+.content {
+    height: 85vh;
+    background-color: #18191d;
+    color: #ffffff;
+}
+
+.index .content-left {
+    display: grid;
+}
+
+.index .toatl-balance {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1d2024;
+}
+
+.index .toatl-balance .blog-date {
+    background-color: #2a2b31;
+    padding: 5px;
+}
+
+.index .btn-dark:hover {
+    background-color: #f2921b;
+    color: #18191d;
+}
+
+/* book */
+.book .book-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.book .book-content{
+    padding: 10px;
+    background-color:#1d2024;
+}
+.book .blog{
+    padding: 10px;
+}
+.book .book-title .fa-bolt{
+    color: #f2921b;
+    font-size: 20px;
+    padding: 10px;
+}
+.book .book-title .fa-tint{
+    color: #4a90e2;
+    font-size: 20px;
+    padding: 10px;
+}
+.book .book-title .fa-wind{
+    color: #838383;
+    font-size: 20px;
+    padding: 10px;
+}
+.book .book-title .fa-feather-alt{
+    color: #81cd32;
+    font-size: 20px;
+    padding: 10px;
+}
+.book .book-title .fa-fire{
+    color: #c61e0e;
+    font-size: 20px;
+    padding: 10px;
+}
+.book .book-text{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #45464d;
+    opacity: .2px;
+}
+.book .book-text p{
+    padding-top: 10px;
+    color: #1d2024;
+}
+.book .book-title-text{
+    font-size: 30px;
+}
